@@ -139,6 +139,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonAddressBuilder.cpp" />
+    <ClCompile Include="PersonBuilder.cpp" />
+    <ClCompile Include="PersonJobBuilder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="PersonAddressBuilder.h" />
+    <ClInclude Include="PersonBuilder.h" />
+    <ClInclude Include="PersonJobBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
