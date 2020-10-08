@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometric Shapes", "Geometric Shapes\Geometric Shapes.vcxproj", "{92648CB5-87C3-4147-BE90-8F77DC6293DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Neural Networks", "Neural Networks\Neural Networks.vcxproj", "{3AEB23AC-81C5-401E-994E-01020D95413B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array-Backed Properties", "Array-Backed Properties\Array-Backed Properties.vcxproj", "{97ED7F75-F42A-4478-85BF-55D561AE4D6D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Code Exercise", "Code Exercise\Code Exercise.vcxproj", "{3C978A36-9A33-4514-9C52-E4B3D84955CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Debug|x64.ActiveCfg = Debug|x64
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Debug|x64.Build.0 = Debug|x64
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Debug|x86.Build.0 = Debug|Win32
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Release|x64.ActiveCfg = Release|x64
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Release|x64.Build.0 = Release|x64
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Release|x86.ActiveCfg = Release|Win32
+		{92648CB5-87C3-4147-BE90-8F77DC6293DD}.Release|x86.Build.0 = Release|Win32
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Debug|x64.ActiveCfg = Debug|x64
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Debug|x64.Build.0 = Debug|x64
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Debug|x86.Build.0 = Debug|Win32
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Release|x64.ActiveCfg = Release|x64
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Release|x64.Build.0 = Release|x64
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Release|x86.ActiveCfg = Release|Win32
+		{3AEB23AC-81C5-401E-994E-01020D95413B}.Release|x86.Build.0 = Release|Win32
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Debug|x64.ActiveCfg = Debug|x64
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Debug|x64.Build.0 = Debug|x64
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Debug|x86.Build.0 = Debug|Win32
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Release|x64.ActiveCfg = Release|x64
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Release|x64.Build.0 = Release|x64
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Release|x86.ActiveCfg = Release|Win32
+		{97ED7F75-F42A-4478-85BF-55D561AE4D6D}.Release|x86.Build.0 = Release|Win32
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Debug|x64.ActiveCfg = Debug|x64
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Debug|x64.Build.0 = Debug|x64
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Debug|x86.Build.0 = Debug|Win32
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Release|x64.ActiveCfg = Release|x64
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Release|x64.Build.0 = Release|x64
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Release|x86.ActiveCfg = Release|Win32
+		{3C978A36-9A33-4514-9C52-E4B3D84955CA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1B79568-E14A-4330-8B98-E7BF2AF3AB2F}
+	EndGlobalSection
+EndGlobal
