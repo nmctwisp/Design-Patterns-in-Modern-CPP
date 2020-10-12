@@ -30,7 +30,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -88,14 +88,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\include</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>cpprest120d_2_9.dll;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x86\Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cpprest141_2_10d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\x86\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -106,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\include</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
@@ -114,8 +114,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>cpprest120_2_9.dll;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x86\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cpprest141_2_10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\x86\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -124,14 +124,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>false</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\include</AdditionalIncludeDirectories>
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x64\Debug</AdditionalLibraryDirectories>
-      <AdditionalDependencies>cpprest120d_2_9.dll;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\x64\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cpprest141_2_10d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -142,7 +142,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\build\native\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\include</AdditionalIncludeDirectories>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
     <Link>
@@ -150,8 +150,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>cpprest120_2_9.dll;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\cpprestsdk.v120.windesktop.msvcstl.dyn.rt-dyn.2.9.1\lib\native\v120\windesktop\msvcstl\dyn\rt-dyn\x64\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cpprest141_2_10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\yamc\source\repos\Design-Patterns-in-Modern-CPP\Section 13 - Proxy\packages\cpprestsdk.v141.2.10.12.1\build\native\x64\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -164,7 +164,17 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\cpprestsdk.v141.2.10.12.1\build\native\cpprestsdk.v141.targets" Condition="Exists('..\packages\cpprestsdk.v141.2.10.12.1\build\native\cpprestsdk.v141.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\cpprestsdk.v141.2.10.12.1\build\native\cpprestsdk.v141.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cpprestsdk.v141.2.10.12.1\build\native\cpprestsdk.v141.targets'))" />
+  </Target>
 </Project>

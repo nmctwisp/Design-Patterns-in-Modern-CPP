@@ -19,7 +19,7 @@ using namespace concurrency::streams;       // Asynchronous streams
 struct RemotePong : Pingable {
 	std::wstring ping(const std::wstring& message) override {
 		std::wstring result;
-		http_client client(U("http://localhost:64959/"));
+		http_client client(U("http://localhost:50788/"));
 		uri_builder builder(U("/api/values/"));
 		builder.append(message);
 
@@ -28,6 +28,7 @@ struct RemotePong : Pingable {
 			});
 
 		task.wait();
+
 		return task.get();
 
 	};
