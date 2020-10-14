@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handmade Interpreter Lexing
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Handmade Interpreter Parsing", "Handmade Interpreter Parsing\Handmade Interpreter Parsing.vcxproj", "{786D4A91-62B6-4254-A278-C1A4186C7D51}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parsers with Boost Spirit", "Parsers with Boost Spirit\Parsers with Boost Spirit.vcxproj", "{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Code Exercise", "Code Exercise\Code Exercise.vcxproj", "{88A5CB77-DF01-42E0-A04E-4C27A113D817}"
 EndProject
 Global
@@ -35,14 +33,6 @@ Global
 		{786D4A91-62B6-4254-A278-C1A4186C7D51}.Release|x64.Build.0 = Release|x64
 		{786D4A91-62B6-4254-A278-C1A4186C7D51}.Release|x86.ActiveCfg = Release|Win32
 		{786D4A91-62B6-4254-A278-C1A4186C7D51}.Release|x86.Build.0 = Release|Win32
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Debug|x64.ActiveCfg = Debug|x64
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Debug|x64.Build.0 = Debug|x64
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Debug|x86.ActiveCfg = Debug|Win32
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Debug|x86.Build.0 = Debug|Win32
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Release|x64.ActiveCfg = Release|x64
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Release|x64.Build.0 = Release|x64
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Release|x86.ActiveCfg = Release|Win32
-		{A829D941-D68E-4B9D-8E49-4FEFAC828C2E}.Release|x86.Build.0 = Release|Win32
 		{88A5CB77-DF01-42E0-A04E-4C27A113D817}.Debug|x64.ActiveCfg = Debug|x64
 		{88A5CB77-DF01-42E0-A04E-4C27A113D817}.Debug|x64.Build.0 = Debug|x64
 		{88A5CB77-DF01-42E0-A04E-4C27A113D817}.Debug|x86.ActiveCfg = Debug|Win32
